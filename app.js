@@ -52,6 +52,31 @@ console.log(audiCar)
 console.log(myCar)
 
 //------------------------------------------------------------------------------\\
+//Exercise 6: Dynamic keys in objects
+// Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+const userProfile = {};
+const propertyName = 'username';                        //Variable as a dynamic key
+userProfile[propertyName] = 'paul_colton';
+console.log(userProfile)
+
+//------------------------------------------------------------------------------\\
+//Exercise 7: Import and Export
+
+//------------------------------------------------------------------------------\\
+//Exercise 8: Default parameters
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+// 1. `cat`
+// 2. `white`
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+function kittyCats( noun = 'cat', adjective = 'white' ) {
+    return `The ${noun} is ${adjective}!`;
+} 
+console.log(kittyCats('tiger', 'black'))
+
+//------------------------------------------------------------------------------\\
+
 
 
 
